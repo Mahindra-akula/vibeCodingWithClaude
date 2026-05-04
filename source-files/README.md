@@ -18,3 +18,13 @@ Place the following CSV files in this folder before running the pipeline:
 
 Sample data was generated using the [Faker](https://faker.readthedocs.io/) library.
 You can generate your own using tools like [Mockaroo](https://mockaroo.com/) or ask Claude to generate synthetic data.
+
+## Download Source Files
+
+The CSV files used in this project are available at the following URLs:
+
+| File | URL |
+|------|-----|
+| `airports.csv` | https://raw.githubusercontent.com/anshlambagit/Claude_X_Dtabricks/main/airports.csv |
+| `bookings.csv` | https://raw.githubusercontent.com/anshlambagit/Claude_X_Dtabricks/main/bookings.csv |
+| `passengers.csv` | https://raw.githubusercontent.com/anshlambagit/Claude_X_Dtabricks/main/passengers.csv |
