@@ -54,11 +54,11 @@ ingest_csv_to_raw
 
 | Script | Layer | Purpose |
 |--------|-------|---------|
-| `ingest_csv_to_raw.py` | Raw | Reads CSVs via pandas, writes Delta tables to `raw` schema |
-| `raw_to_silver_bookings_passengers.py` | Silver | Inner join bookings + passengers on `passenger_id` |
-| `raw_to_silver_bookings_airports.py` | Silver | Inner join bookings + airports on `airport_id` |
-| `silver_to_gold_bookings_by_gender.py` | Gold | Aggregate total bookings + amount by month and gender |
-| `silver_to_gold_bookings_by_airport.py` | Gold | Aggregate total bookings + amount by airport and month |
+| `scripts/ingest_csv_to_raw.py` | Raw | Reads CSVs via pandas, writes Delta tables to `raw` schema |
+| `scripts/raw_to_silver_bookings_passengers.py` | Silver | Inner join bookings + passengers on `passenger_id` |
+| `scripts/raw_to_silver_bookings_airports.py` | Silver | Inner join bookings + airports on `airport_id` |
+| `scripts/silver_to_gold_bookings_by_gender.py` | Gold | Aggregate total bookings + amount by month and gender |
+| `scripts/silver_to_gold_bookings_by_airport.py` | Gold | Aggregate total bookings + amount by airport and month |
 
 ## Key Databricks MCP Tools Used
 

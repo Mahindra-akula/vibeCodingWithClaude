@@ -23,7 +23,7 @@ Please:
 ```
 
 **What Claude does:**
-- Writes `ingest_csv_to_raw.py` with pandas + PySpark ingestion logic
+- Writes `scripts/ingest_csv_to_raw.py` with pandas + PySpark ingestion logic
 - Uploads to `/Workspace/Users/.../scripts/`
 - Creates a Databricks Job with serverless environment
 
