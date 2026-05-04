@@ -114,7 +114,7 @@ Create a Python script and a Databricks Job called "ingest_csv_to_raw" to do thi
 ```
 
 Claude will:
-- Write `ingest_csv_to_raw.py`
+- Write `scripts/ingest_csv_to_raw.py`
 - Upload it to your Databricks workspace
 - Create a Databricks Job with a serverless Python task
 
