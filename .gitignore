@@ -1,0 +1,22 @@
+# Databricks config (contains PAT token - never commit)
+.databrickscfg
+
+# Virtual environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Dev kit
+.ai-dev-kit/
+
+# Claude local settings
+.claude/settings.local.json
+.mcp.json
+
+# Databricks tracked resources (workspace-specific)
+.databricks-resources.json
+
+# OS
+.DS_Store
+Thumbs.db
