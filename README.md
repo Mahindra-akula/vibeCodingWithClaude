@@ -1,4 +1,4 @@
-# Vibe Coding a Medallion Pipeline with Claude Code + Databricks
+# Zero to Gold: Vibe Coding a Medallion Pipeline with Claude Code + Databricks
 
 Build a complete **Bronze → Silver → Gold** data pipeline on Databricks using nothing but natural language prompts — no manual coding required.
 
